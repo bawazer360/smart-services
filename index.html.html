@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Services</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: #f8fbff;
+}
+
+/* Navbar */
+.navbar {
+    background: #0f172a;
+    color: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar a {
+    color: #cbd5f5;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(180deg, #eaf2ff 0%, #ffffff 100%);
+    text-align: center;
+    padding: 90px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 34px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #64748b;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* Button */
+.hero button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #1d4ed8;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    width: 260px;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    text-align: right;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* Title with emoji */
+.card h3 {
+    color: #0f172a;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Emoji animation */
+.card h3 span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.card:hover h3 span {
+    transform: scale(1.3) rotate(8deg);
+}
+
+.card p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: #cbd5f5;
+    font-size: 14px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">⚙️ Smart Services</div>
+    <div>
+        <a href="#">الرئيسية</a>
+        <a href="#">الخدمات</a>
+        <a href="#">الدعم</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>حلول تقنية ذكية بين يديك</h1>
+    <p>
+        نوفر أدوات و خدمات رقمية تساعدك في تطوير أعمالك بسرعة وكفاءة
+    </p>
+    <button>ابدأ الآن</button>
+</div>
+
+<!-- Cards -->
+<div class="cards">
+    <div class="card">
+        <h3><span>📊</span> تحليل البيانات</h3>
+        <p>أدوات تساعدك على فهم بياناتك بشكل أحترافي.</p>
+    </div>
+
+    <div class="card">
+        <h3><span>🔒</span> حماية الأنظمة</h3>
+        <p>حلول أمن سيبراني لحماية معلوماتك.</p>
+    </div>
+
+    <div class="card">
+        <h3><span>☁️</span> التخزين السحابي</h3>
+        <p>خزن ملفاتك بأمان و سهولة في السحابة.</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    Smart Services - جميع الحقوق محفوظة
+</div>
+
+</body>
+</html>
+
